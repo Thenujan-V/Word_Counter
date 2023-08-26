@@ -1,0 +1,50 @@
+body{
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#wrapper{
+    background-color: rgb(5, 5, 74);
+    width:400px;
+    height:500px;
+    margin:100px auto ;
+    border:2px solid black;
+    border-radius: 10px;
+    padding:20px;
+}
+#wrapper div,#wrapper h2{
+    display:flex;
+    justify-content: center;
+}
+h2{
+        color:beige;
+        letter-spacing: 1px;
+}
+textarea{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+} 
+button{
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 5px;
+    height:44px;
+    box-shadow: 2px 2px gray;
+    margin:20px;
+    padding:0px 20px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+input:active{
+    border:none;
+}
+button:hover{
+    cursor:pointer;
+    color:rgba(23, 146, 7, 0.855);
+}
+#result{
+    color:rgb(220, 201, 201);
+    margin-top:20px;
+    font-size:32px;
+}
